@@ -60,11 +60,11 @@ def rps(player_choice):
 
     # use if/elif/else to determine winner, print winner message
     if remainder == 1:
-        print ("COMPUTER WINS!")
+        print ("Computer Wins!")
     elif remainder == 2:
-        print ("PLAYER WINS!")
+        print ("Player Wins!")
     else:
-        print ("IT'S A TIE!")
+        print ("It's a tie!")
 
 def rock():
     rps("rock")
